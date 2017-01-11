@@ -1,0 +1,19 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=1
+#PBS -N PYQUANTE
+
+cd $PBS_O_WORKDIR
+
+
+
+MOL1=../scf/mol1/benzene.xyz
+MOL2=../scf/mol2//benzene_translated.xyz
+
+ORBS1=../scf/mol1/benzene_orbitals.dat
+ORBS2=../scf/mol2/benzene_translated_orbitals.dat
+
+NEL1=../scf/mol1/benzene_nel.dat
+NEL2=../scf/mol2/benzene_translated_nel.dat
+
+ 
+python citrus.py $MOL1 $MOL2 -orb1 $ORBS1 -orb2 $ORBS2 -nel1 $NEL1 -nel2 $NEL2

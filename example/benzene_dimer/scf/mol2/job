@@ -1,0 +1,6 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=1
+#PBS -N PYQUANTE
+
+cd $PBS_O_WORKDIR
+python scf.py benzene_translated.xyz

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# molecule file
+MOL=h2.xyz
+
+# unit
+UNIT=bohr
+
+# basis we wenat
+BASIS=sto-3g
+
+# level of theory
+LEVEL=HF
+
+# launch the code
+python scf.py $MOL -u $UNIT -b $BASIS -l $LEVEL 

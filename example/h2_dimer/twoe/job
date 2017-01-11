@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# in this example we use the 
+# same positiona and orbital files
+# and translate the second molecule
+
+# first molecule file
+MOL1=h2.xyz
+
+#second molecule file
+MOL2=h2.xyz
+
+# translation vector
+# fir the second molecule
+TRANS="0 2 2"
+
+# unit
+UNIT=bohr
+
+# the four orbitals we want
+# in the integral
+S1=h1
+S2=l2
+S3=l1
+S4=h2
+
+# file that contain the 
+# molecular orbital info
+# these files are generated
+# by scf.py
+MO1=h2_orbitals.dat
+MO2=h2_orbitals.dat
+
+# launch the code
+python citrus.py $MOL1 $MOL2 -u $UNIT -t $TRANS -s1 $S1 -s2 $S2 -s3 $S3 -s4 $S4 -mo1 $MO1 -mo2 $MO2

@@ -1,0 +1,35 @@
+WARNING:root:openbabel not found in path, switching to PyQuante backend
+WARNING:root:libint extension not found, switching to normal ERI computation
+INFO:root:HF calculation on system molecule
+INFO:root:2 basis functions
+INFO:root:Nclosed/open = 1, 0
+INFO:root:Iteration: 1    Energy: -1.116714    EnergyVar: 1.116714
+INFO:root:Iteration: 2    Energy: -1.116714    EnergyVar: 0.000000
+INFO:root:PyQuante converged in 2 iterations
+INFO:root:Final HF energy for system molecule is -1.116714
+WARNING:root:openbabel not found in path, switching to PyQuante backend
+WARNING:root:libint extension not found, switching to normal ERI computation
+INFO:root:HF calculation on system molecule
+INFO:root:2 basis functions
+INFO:root:Nclosed/open = 1, 0
+INFO:root:Iteration: 1    Energy: -1.116714    EnergyVar: 1.116714
+INFO:root:Iteration: 2    Energy: -1.116714    EnergyVar: 0.000000
+INFO:root:PyQuante converged in 2 iterations
+INFO:root:Final HF energy for system molecule is -1.116714
+WARNING:root:openbabel not found in path, switching to PyQuante backend
+WARNING:root:libint extension not found, switching to normal ERI computation
+INFO:root:DFT calculation on system molecule
+INFO:root:2 basis functions
+INFO:root:Nclosed/open = 1, 0
+INFO:root:Iteration: 1    Energy: -1.121200    EnergyVar: 1.121200
+INFO:root:Iteration: 2    Energy: -1.121200    EnergyVar: 0.000000
+INFO:root:PyQuante converged in 2 iterations
+WARNING:root:openbabel not found in path, switching to PyQuante backend
+WARNING:root:libint extension not found, switching to normal ERI computation
+INFO:root:HF calculation on system molecule
+INFO:root:2 basis functions
+INFO:root:Nclosed/open = 1, 0
+INFO:root:Iteration: 1    Energy: -1.116714    EnergyVar: 1.116714
+INFO:root:Iteration: 2    Energy: -1.116714    EnergyVar: 0.000000
+INFO:root:PyQuante converged in 2 iterations
+INFO:root:Final HF energy for system molecule is -1.116714
